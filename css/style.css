@@ -1,0 +1,224 @@
+body{
+	margin: 0;
+	font-family: 'Didact Gothic', sans-serif;
+
+}
+
+a{ 
+	text-decoration: none
+ }
+h2{
+	text-align: center;
+}
+p{
+	text-align: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+
+.header{
+	width: 1500px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #fff;
+	height: 30px;
+
+}
+	.header__nav{
+		display: inline-block;
+		vertical-align: middle;
+	}
+.menulist{
+
+}
+	.menulist__item{
+		display: inline-block;
+		margin-left: 20px;	
+	}
+
+	.menulist__link{
+		text-decoration: none;
+		color: #05346a;
+		display: block;
+		padding: 5px;
+		border: solid 2px transparent;
+	}
+
+.intro{
+	
+	background-image: url("../images/banner_completo.jpg");
+	padding: 20px;
+	width: 1500px;
+	color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+
+
+	}
+
+.container{
+	padding-right: 210px;
+		padding-left: 210px;
+}
+
+.quienes_somos{
+		width: 1500px;
+		opacity: 0.9;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 15px
+		
+
+
+}
+	.imagenes_container{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+
+
+}
+.proveedores{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	text-align: center;
+}
+
+.preguntas_frecuentes{
+		background-color: #000;
+		opacity: 0.9;
+		padding:15px; 
+		color: #ffffff;
+		list-style: none;
+		text-decoration: none;
+		padding-right: 210px;
+		padding-left: 210px;
+
+}
+.pagos_devoluciones{
+	text-align: center;
+	padding: 15px;
+	padding-right: 210px;
+	padding-left: 210px;
+	
+}
+.pagosbox{
+	display: flex;
+	justify-content: space-between;
+	width: 1080px;
+	list-style: none;
+	text-align: center;
+}
+
+
+.socials-list{
+	text-align: center;
+	padding: 0;
+}
+
+	.socials-list__item{
+		display: inline-block;
+		margin: 0 10px;
+	}
+
+	.socials-list__link{
+		display: block;
+		width: 40px;
+		height: 40px;
+		color: #000;
+		font-size: 40px;
+		text-decoration: none;
+		line-height: 40px;
+		
+	}
+
+		.socials-list__link:hover{
+			background-color: #fff;
+		}
+
+.get_notified{
+	background-color: #e3e3e3;
+	height: 430px;
+	color: #f90;
+	padding-right: 210px;
+	padding-left: 210px;
+
+}
+
+	.get_notified_container{
+		width: 1200px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 30px;
+		padding-right: 650px;
+		display: inline-block;
+	}
+
+	
+/*--------Formulario email----*/
+.formulario{
+	width: 537px;
+    color: #000;
+    margin: 0px 0px 0 0px;
+
+}
+	.titulo_formulario{
+	
+	}
+
+.cform{
+    display:flex;
+    justify-content:center;
+    text-align: center;
+	padding: 0;
+	justify-content: space-between;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	list-style: none;
+ }
+
+	.cform__field{
+	margin: 0px -3px 0px 53px;
+    padding: 16px 66px;
+    border-radius: 15px 0px 0px 15px;
+    font-size: 16px;
+    font-family: 'Didact Gothic';
+    transition: background-color .8s
+	}
+
+	.cform__btn{
+	border: none;
+    background-color: #b3b3b3;
+    color: #ffffff;
+    padding: 14px 30px 15px 19px;
+    font-size: 20px;
+    border-radius: 3px 15px 15px 0px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Didact Gothic';
+}
+
+
+.contactanos{
+	text-align: center;
+	padding: 0;
+	padding-right: 210px;
+	padding-left: 210px;
+	color: #000;
+	
+}
+.contactanos_{
+	text-align: center;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	list-style: none;
+}
+	
